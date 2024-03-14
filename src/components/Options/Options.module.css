@@ -1,0 +1,13 @@
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.buttonsContainer button {
+  transition: ease-in 0.2s;
+}
+
+.buttonsContainer button:hover {
+  border-color: black;
+}
